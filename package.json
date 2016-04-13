@@ -1,0 +1,29 @@
+{
+  "name": "angular-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/karma/bin/karma start test/karma.conf.js",
+    "test-single-run": "node node_modules/karma/bin/karma start test/karma.conf.js  --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-wu-8156/angular-learning.git"
+  },
+  "author": "William",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/william-wu-8156/angular-learning/issues"
+  },
+  "homepage": "https://github.com/william-wu-8156/angular-learning#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "shelljs": "^0.6.0"
+  }
+}
