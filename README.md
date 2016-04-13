@@ -1,1 +1,1 @@
-# angula-learning
+# angular-learning
